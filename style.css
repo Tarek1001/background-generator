@@ -1,0 +1,21 @@
+/* Variables*/
+:root{
+--orange: #ffa600;
+--green: #c1d72e;
+--blue: #82d2e5;
+--grey: #f3f3f3;
+--white: #fff;
+}
+
+@mixin transition{
+    transition-duration:0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+
+body{
+    background-color: var(--blue);
+    text-align: center;
+    color:var(--white);
+}
+

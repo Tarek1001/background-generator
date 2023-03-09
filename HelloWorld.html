@@ -1,0 +1,37 @@
+<html LANG="en-GB"> 
+    <head>
+        <title>Hello World</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="content-security-policy" content="default-src 'self'">
+    </head>
+    <body>
+        <div id="gradiant"></div>
+        <div id="page">
+            <div id="Message-Container">
+                <div id="message">
+                    <h1>Congratulations!</h1>
+                    <p>You are done.</p>
+                    <p id="moves"></p>
+                   
+                </div>
+            </div>
+            <div id="menu">
+                <div class="custom-select">
+                    <select id="diffSelect">
+                        <option value="10">Easy</option>
+                        <option value="15">Medium</option>
+                    </select>
+                </div>
+                <input id="startMazeBtn" type="button" onclick="makeMaze()" value="Start"/>
+            </div>
+            <div id="view">
+                <div id="mazeContainer">
+                    <canvas id="mazeCanvas" class="border" height="1100" width="1100"></canvas>
+                </div>
+            </div>
+        </div>
+        <script src = "HelloWorld.js"></script>
+    </body>
+</html>
